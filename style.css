@@ -8,3 +8,55 @@ html,body{
     height: 100%;
     font-family: sans-serif;
 }
+#container{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+}
+input{
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: darkgray;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+#first{
+    width: 60%;
+    margin: 30px 20%;
+}
+#second{
+    width: 60%;
+    margin: 10px 20%;
+}
+button{
+    margin: 30px 30% ;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: darkgray;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow:0 0 10px #fff, 0 0 20px #fff;
+}
+button:hover{
+    background-color: #fff;
+    color: darkgray;
+
+}
+#generator{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 20%;
+}
