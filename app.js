@@ -6,10 +6,12 @@
 // }
 
 function click(){
-    let collect = document.getElementById("first").value;
-    let length = document.getElementById("second").value;
-    let putdata = document.getElementById("generator");
-    for(let i = 1; i <= length; i++){
-           putdata.value += collect*i;
+    let collect = document.getElementById("first");
+    let some = collect.length;
+     some = document.getElementById("second");
+     let putdata = document.querySelector("#generator");
+     for(let i = 1; i <= some.length; i++){
+           putdata += `${collect} X ${i} = ${collect*i}`;
+       
     }
 }
