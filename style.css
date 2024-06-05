@@ -26,9 +26,9 @@ input{
     font-size: 1.5rem;
     border-radius: 20px;
 }
-input:hover{
+/* input:hover{
     box-shadow: 0 0 10px #fff, 0 0 10px #fff;
-}
+} */
 #first{
     width: 60%;
     margin: 30px 20%;
@@ -59,6 +59,6 @@ button:hover{
 #generator{
     font-size: 2rem;
     font-weight: bold;
-    color: #fff;
+    color: #000;
     margin: 10px 20%;
 }
